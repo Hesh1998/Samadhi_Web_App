@@ -1,0 +1,67 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+    height: 72px;
+    background-color: #222222;
+    border: 1px solid #111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+    
+.headerSet{
+    padding-left: 8px;
+    padding-top: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.sideBar {
+    height: 100%;
+    width: 16%;
+    position: fixed;
+    z-index: 1;
+    top: 72px;
+    left: 0;
+    background-color: #222222;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sideBar a, .dropdownBtn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.sideBar a:hover, .dropdownBtn:hover {
+    color: #f1f1f1;
+}
+
+.dropdownList {
+    display: none;
+    background-color: #262626;
+    padding-left: 20px;
+}
+
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+.section1{
+    height: 88.9%;
+    width: 83.7%;
+    float: right;
+}

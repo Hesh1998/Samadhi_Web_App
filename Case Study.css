@@ -1,0 +1,116 @@
+.form1{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.formtitle{
+  font-weight: bold;
+  font-size: medium;
+  padding-left: 1%;
+  text-align: center;
+}
+
+.form1 input[type="text"], .form1 input[type="date"], .form1 input[type="file"], .form1 input[type="email"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+textarea{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+select{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+label{
+  display: inline-block;
+  width: 25%;
+  text-align: left;
+}
+
+body{
+  font-style: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.form1 input[type="submit"]{
+  height: 100%;
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #5d51a0;
+  margin-left: 25%;
+}
+
+.container{
+  padding-top: 8%;
+}
+
+.overviewtable{
+  margin-top: 10%;
+  margin-left: 10%;
+  border-collapse: collapse;
+}
+
+.overviewtable td{
+  padding: 5%;
+  font-size: 350%;
+  text-align: center;
+  border: 10px solid gray;
+  border-collapse: collapse;
+  background-color: gray;
+}
+
+.card {
+  display: grid;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.cardlink{
+  text-decoration: none;
+  color: black;
+}
